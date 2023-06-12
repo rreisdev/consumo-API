@@ -8,7 +8,7 @@ import { Produto } from './models/produto.model';
 })
 export class ProdutoService {
 
-  private url ="http://localhost:4200/produtos";
+  private url ="http://localhost:3000/produtos";
 
   constructor(private _httpClient: HttpClient) { }
 
@@ -28,12 +28,12 @@ export class ProdutoService {
 }
 
   atualizarProduto(id:any, produto: Produto):Observable<Produto[]>{
-    const urlAtualizar = `${this.url}/?${id}`;
+    const urlAtualizar = `${this.url}/${id}`;
     return this._httpClient.put<Produto[]>(urlAtualizar, produto);
   }
 
   removerProduto(id:any):Observable<Produto[]>{
-    const urlDeletar = `${this.url}/?${id}`;
+    const urlDeletar = `${this.url}/${id}`;
     return this._httpClient.delete<Produto[]>(urlDeletar);
   }
 

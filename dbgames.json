@@ -2,24 +2,24 @@
   "produtos": [
     {
       "id": 1,
-      "produto": "Jogo 1",
-      "descricao": "Descrição do Jogo 1",
+      "produto": "House Evill",
+      "descricao": "Lançamento do Ano",
       "foto": "jogo01.png",
-      "preco": 300
+      "preco": 399
     },
     {
       "id": 2,
-      "produto": "Jogo 2",
-      "descricao": "Descrição do Jogo 2",
+      "produto": "The King of Kingss ",
+      "descricao": "O mais Vendido",
       "foto": "jogo02.png",
-      "preco": 400
+      "preco": 599
     },
     {
       "id": 3,
-      "produto": "Jogo 3",
-      "descricao": "Descrição do Jogo 3",
+      "produto": "Super Metroi",
+      "descricao": "O melhor do RPG",
       "foto": "jogo03.png",
-      "preco": 500
+      "preco": 199
     }
   ]
 }
